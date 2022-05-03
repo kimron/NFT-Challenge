@@ -13,7 +13,7 @@ body{
     background-color: hsl(216, 50%, 16%);
     position: relative;
     margin: 90px auto;
-    height: 600px;
+    height: 570px;
     width: 350px;
     padding-top: 23px;
     border-radius: 4%;
@@ -66,7 +66,7 @@ h3{
   color: hsl(178, 100%, 50%);
   display: inline;
   position: relative;
-  right:65px;
+  right:60px;
 
   padding-bottom: 16px;
 
