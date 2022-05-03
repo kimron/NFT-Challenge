@@ -1,0 +1,137 @@
+
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+
+}
+
+.card{
+
+    background-color: hsl(216, 50%, 16%);
+    position: relative;
+    margin: 90px auto;
+    height: 600px;
+    width: 350px;
+    padding-top: 23px;
+    border-radius: 4%;
+}
+
+.cube-image{
+    position: relative;
+    border-radius: 3%;
+    height: 300px;
+    width: 300px;
+
+
+}
+
+p{
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  text-align: left;
+}
+
+
+
+h3{
+
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+  margin-left: 26px;
+
+
+}
+
+.data{
+  margin-left: 26px;
+
+}
+
+.time{
+
+  font-size: 15px;
+  display: inline;
+
+  position: relative;
+  left: 62px;
+
+
+
+}
+
+.crypto{
+  color: hsl(178, 100%, 50%);
+  display: inline;
+  position: relative;
+  right:65px;
+
+  padding-bottom: 16px;
+
+
+}
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+    border-style: none;
+    border-top-style: solid;
+    border-top-width: 3px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.avatar{
+
+height:32px;
+position: relative;
+left: 22px;
+top: 12px;
+float: left;
+border-style: solid;
+border-radius: 100%;
+border-color: white;
+border-width: 1px;
+
+
+
+}
+
+.creation{
+  display: inline-block;
+  position: relative;
+  right: 22px;
+
+
+}
+
+.creator-name{
+  color: hsl(0, 0%, 100%);
+}
+
+
+.ethereum-icon{
+  margin-right: 5px;
+
+}
+
+.clock{
+
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
