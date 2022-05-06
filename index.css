@@ -19,7 +19,7 @@ body{
     padding-top: 23px;
     border-radius: 4%;
     filter: drop-shadow(-1px 0px 10px black);
-    
+
 }
 
 .cube-image{
@@ -40,7 +40,7 @@ body{
 .image-overlay{
   position: absolute;
   top: 22px;
-  left:22px;
+  left:20px;
   background: hsl(178, 100%, 50%);
   height: 300px;
   width: 300px;
