@@ -14,10 +14,12 @@ body{
     background-color: hsl(216, 50%, 16%);
     position: relative;
     margin: 90px auto;
-    height: 570px;
-    width: 350px;
+    height: 565px;
+    width: 340px;
     padding-top: 23px;
     border-radius: 4%;
+    filter: drop-shadow(-1px 0px 10px black);
+    
 }
 
 .cube-image{
@@ -30,14 +32,15 @@ body{
 
 .eye-icon{
   position: absolute;
-  top: 120px;
-  right: 120px;
+  top: 145px;
+  right: 146px;
+  display: none;
 }
 
 .image-overlay{
   position: absolute;
   top: 22px;
-  left:24px;
+  left:22px;
   background: hsl(178, 100%, 50%);
   height: 300px;
   width: 300px;
@@ -47,7 +50,15 @@ body{
 }
 
 .image-overlay:hover{
-  opacity: 0.6;
+  opacity: 0.5;
+
+}
+
+
+.image-overlay:hover + .eye-icon{
+
+  display: block;
+
 }
 
 
@@ -105,7 +116,7 @@ hr{
     border-color: hsl(215, 32%, 27%);
     border-style: none;
     border-top-style: solid;
-    border-top-width: 3px;
+    border-top-width: 2px;
     width: 300px;
     margin-top: 30px;
 }
